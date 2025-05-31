@@ -1,10 +1,9 @@
 name: Run Coverage on PR
 on: pull_request
-
 permissions:
     contents: read
     pull-requests: write
-
+    
 jobs:
   build-and-run-coverage:
     runs-on: ubuntu-latest
